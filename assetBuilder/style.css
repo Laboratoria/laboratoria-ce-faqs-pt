@@ -25,8 +25,9 @@ details {
 
 details > *:not(:first-child) {
   font-size: 14px;
+  font-family: "Open Sans";
   font-weight: normal;
-  background: #FFE521;
+  background: #F7F7F7;
 }
 
 details > *:not(:first-child) > p {
@@ -72,7 +73,7 @@ summary {
 }
 
 details[open] > summary {
-  background: #FFE521;
+  background: #F7F7F7;
   font-weight: bold;
   text-decoration: underline;
 }
