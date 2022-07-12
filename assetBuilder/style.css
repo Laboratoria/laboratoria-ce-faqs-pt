@@ -1,19 +1,30 @@
-main {
-  overflow: visible !important;
+h1 {
+  font-family: "Bitter";
+  font-weight: bold;
+  text-align: -webkit-center;
 }
 
-#element-1185 {
+laboratoria-faqs {
+  overflow: visible !important;
   margin-bottom: 1vh;
   color: black;
 }
 
+laboratoria-faqs a {
+  font-family: "Open Sans";
+  text-decoration: underline;
+  font-weight: bolder;
+  color: black;
+}
+
 @media (min-width: 600px) { 
-  #element-1185 {
+  laboratoria-faqs {
     width: 100%;
   }
 }
 
 details {
+  font-family: "Bitter";
   margin: 0 auto ;
   border-radius: 5px;
   overflow: hidden;
@@ -21,7 +32,6 @@ details {
 
 details > *:not(:first-child) {
   font-size: 14px;
-  font-family: "Open Sans";
   font-weight: normal;
   background: #FFE521;
 }
@@ -50,7 +60,6 @@ details > *:not(:first-child) > p {
 .upper-section {
   margin: 20px;
   font-size: 24px;
-  font-family: "Bitter";
   font-weight: bold;
   text-align: left;
 }
@@ -77,6 +86,10 @@ details[open] > summary {
 
 details[open] summary ~ * {
   animation: growDown 300ms ease-in-out;
+}
+
+p {
+  font-family: "Open Sans";
 }
 
 @keyframes growDown {
