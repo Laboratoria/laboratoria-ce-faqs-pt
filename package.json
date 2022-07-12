@@ -1,5 +1,6 @@
 {
-  "name": "laboratoria-faqs",
+  "name": "laboratoria-ce-faqs",
+  "author": "Fares A. Akel C. <fares@laboratoria.la>",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -13,5 +14,6 @@
   },
   "dependencies": {
     "marked": "^4.0.18"
-  }
+  },
+  "files": ["dist"]
 }
