@@ -6,8 +6,7 @@ h1 {
 
 laboratoria-faqs {
   overflow: visible !important;
-  margin-bottom: 1vh;
-  color: black;
+  padding-bottom: 1vh;
 }
 
 laboratoria-faqs a {
@@ -15,12 +14,6 @@ laboratoria-faqs a {
   text-decoration: underline;
   font-weight: bolder;
   color: black;
-}
-
-@media (min-width: 600px) { 
-  laboratoria-faqs {
-    width: 100%;
-  }
 }
 
 details {
