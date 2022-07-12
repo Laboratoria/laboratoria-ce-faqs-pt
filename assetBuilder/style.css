@@ -4,12 +4,12 @@ h1 {
   text-align: -webkit-center;
 }
 
-laboratoria-faqs {
+body {
   overflow: visible !important;
   padding-bottom: 1vh;
 }
 
-laboratoria-faqs a {
+a {
   font-family: "Open Sans";
   text-decoration: underline;
   font-weight: bolder;
