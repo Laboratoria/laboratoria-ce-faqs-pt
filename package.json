@@ -1,7 +1,6 @@
 {
   "name": "laboratoria-ce-faqs",
   "author": "Fares A. Akel C. <fares@laboratoria.la>",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/Laboratoria/laboratoria-ce-faqs"
