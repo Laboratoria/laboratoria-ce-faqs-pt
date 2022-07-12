@@ -24,7 +24,7 @@ details {
 }
 
 details > *:not(:first-child) {
-  font-size: 14px;
+  font-size: 0.9907rem;
   font-family: "Open Sans";
   font-weight: normal;
   background: #F7F7F7;
@@ -53,7 +53,7 @@ details > *:not(:first-child) > p {
 
 .upper-section {
   margin: 20px;
-  font-size: 24px;
+  font-size: 1.2384rem;
   font-weight: bold;
   text-align: left;
 }
