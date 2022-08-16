@@ -6,7 +6,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 import { marked } from 'marked';
 
 let insideUpperSection = false;
-let insideLowerSection = false;
 let firstUpperSectionPassed = false;
 const renderer = {
   heading(originalText, level, _raw, slugger) {
@@ -20,33 +19,12 @@ const renderer = {
         template = `
         <details class="upper-section">
           <summary id="${slugger.slug(text)}">${text}</summary>`;
-      } else if(insideLowerSection){
-        insideLowerSection = false;
-        template = `
-          </details>
-        </details>
-        <details class="upper-section">
-          <summary id="${slugger.slug(text)}">${text}</summary>`;
       } else {
         template = `
         </details>
         <details class="upper-section">
           <summary id="${slugger.slug(text)}">${text}</summary>`;
       }
-    } else if(level == 3) {
-        if(!insideLowerSection) {
-          insideLowerSection = true;
-          template=`
-          <details class="lower-section">
-            <summary id="${slugger.slug(text)}">${text}</summary>
-          `
-        } else {
-          template=`
-          </details>
-          <details class="lower-section">
-            <summary id="${slugger.slug(text)}">${text}</summary>
-          `
-        }
     } else {
       template = `
       <h${level} id="${slugger.slug(text)}">

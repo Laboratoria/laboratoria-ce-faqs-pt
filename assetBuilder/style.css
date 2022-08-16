@@ -27,28 +27,10 @@ details > *:not(:first-child) {
   font-size: 0.9907rem;
   font-family: "Open Sans";
   font-weight: normal;
-  background: #F7F7F7;
 }
 
 details > *:not(:first-child) > p {
     margin-bottom: 20px;
-}
-/* 
-.upper-section {
-  background: #282828;
-} */
-
-.lower-section {
-  background: #ffffff;
-  border-radius: 0%;
-}
-
-.lower-section p,ul {
-  margin-left: 5%;
-}
-
-.lower-section img {
-  width: -webkit-fill-available;
 }
 
 .upper-section {
@@ -66,10 +48,6 @@ summary {
   position: relative;
   cursor: pointer;
   font-size: 16px;
-}
-
-.lower-section summary {
-  background: white;
 }
 
 details[open] > summary {
