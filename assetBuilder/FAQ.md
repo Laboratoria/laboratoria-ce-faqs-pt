@@ -1,4 +1,4 @@
-# Preguntas frecuentes
+# Perguntas frequentes
 
 ## Por que aprender a programar?
 
