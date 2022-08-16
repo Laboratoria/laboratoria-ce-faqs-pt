@@ -1,11 +1,11 @@
 {
-  "name": "laboratoria-ce-faqs",
+  "name": "laboratoria-ce-faqs-pt",
   "author": "Fares A. Akel C. <fares@laboratoria.la>",
   "repository": {
     "type": "git",
     "url": "https://github.com/Laboratoria/laboratoria-ce-faqs"
   },
-  "version": "0.1.10",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
